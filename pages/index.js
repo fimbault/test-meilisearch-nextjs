@@ -1,12 +1,11 @@
 import MeiliSearch from "meilisearch";
-import React, { useState, useEffect } from 'react';
 
 const client = new MeiliSearch({
   host: "http://127.0.0.1:7700/"
 });
 
 
-export default function Home() {
+export default function Home( {num} ) {
 
   return (
     <div>
