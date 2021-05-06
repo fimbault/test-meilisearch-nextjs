@@ -3,7 +3,7 @@
 ## nextjs
 a basic nextjs starter is used, just to focus on retrieving data from meilisearch
 
-## dependancies
+## dependencies
 we use docker meilisearch:v0.15.0 which you can view at http://localhost:7700
 
 for simplicity reasons, I don't use a key to protect the test instance, but it can easily be added
